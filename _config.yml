@@ -1,14 +1,26 @@
-layout_spectrum: 0.4841017657890916
-typography_spectrum: 0.3719545756466687
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
-  brandStrength: 0.35999694745987654
-  lightness: 0.6382259940728545
   saturation: 0.09947123983874917
-  rhythmicContrast: 0.3814623651560396
+  brandStrength: 1
+  lightness: 0.6382259940728545
   brandColors:
-    - '#85DB18'
-    - '#CDE855'
-    - '#F5F6D4'
-    - '#A7C520'
-    - '#493F0B'
+    - '#ADC2D5'
+    - '#1E1E1C'
+    - '#677D95'
+    - '#66524B'
+    - '#F2E6D6'
+  rhythmicContrast: 0.3814623651560396
+typography_spectrum: 0.1917293
+layout_spectrum: 0.4645543
 name: acrealtorblog
